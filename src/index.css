@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  font-family: 'Poppins';
+}
+.playbutton{
+  display: none;
+}
+.tile:hover .playbutton{
+  display: flex;
+}
+::-webkit-scrollbar{
+  width: 0px}
